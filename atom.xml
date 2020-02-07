@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://epc.ink/"/>
-  <updated>2020-02-06T09:49:08.209Z</updated>
+  <updated>2020-02-07T21:12:32.831Z</updated>
   <id>https://epc.ink/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://epc.ink/2020/02/06/hello-world/"/>
     <id>https://epc.ink/2020/02/06/hello-world/</id>
-    <published>2020-02-06T09:49:08.209Z</published>
-    <updated>2020-02-06T09:49:08.209Z</updated>
+    <published>2020-02-06T09:49:08.000Z</published>
+    <updated>2020-02-07T21:12:32.831Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,38 @@
     </summary>
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>免费云虚机 Free Hosting</title>
+    <link href="https://epc.ink/2020/01/19/mian-fei-zhu-ji/"/>
+    <id>https://epc.ink/2020/01/19/mian-fei-zhu-ji/</id>
+    <published>2020-01-19T09:02:00.000Z</published>
+    <updated>2020-02-07T21:39:11.225Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;本公司提供的云虚拟主机均为学校交流使用，不得用于任何违反当地法律用途，否则后果自负。&lt;br&gt;本主机配置： - 无限磁盘空间 - 无限访问流量  - 无限数据库熟练  - 无限建站数量&lt;/p&gt;
+&lt;h2 id=&quot;新用户请先注册…&quot;&gt;&lt;a href=&quot;#新用户请先注册…&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="虚拟主机" scheme="https://epc.ink/categories/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/"/>
+    
+    
+      <category term="免费主机" scheme="https://epc.ink/tags/%E5%85%8D%E8%B4%B9%E4%B8%BB%E6%9C%BA/"/>
+    
+      <category term="虚拟主机" scheme="https://epc.ink/tags/%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA/"/>
+    
+      <category term="云主机" scheme="https://epc.ink/tags/%E4%BA%91%E4%B8%BB%E6%9C%BA/"/>
     
   </entry>
   
