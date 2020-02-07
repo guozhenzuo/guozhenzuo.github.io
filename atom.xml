@@ -5,9 +5,9 @@
   <subtitle>EPC停车场管理系统</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://guozhenzuo.github.io/"/>
+  <link href="https://epc.ink/"/>
   <updated>2020-02-06T09:49:08.209Z</updated>
-  <id>https://guozhenzuo.github.io/</id>
+  <id>https://epc.ink/</id>
   
   <author>
     <name>左撇子</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://guozhenzuo.github.io/2020/02/06/hello-world/"/>
-    <id>https://guozhenzuo.github.io/2020/02/06/hello-world/</id>
+    <link href="https://epc.ink/2020/02/06/hello-world/"/>
+    <id>https://epc.ink/2020/02/06/hello-world/</id>
     <published>2020-02-06T09:49:08.209Z</published>
     <updated>2020-02-06T09:49:08.209Z</updated>
     

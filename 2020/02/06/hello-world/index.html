@@ -508,7 +508,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://guozhenzuo.github.io" rel="external nofollow noreferrer">左撇子</a>
+                    <a href="https://epc.ink" rel="external nofollow noreferrer">左撇子</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -518,7 +518,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://guozhenzuo.github.io/2020/02/06/hello-world/">https://guozhenzuo.github.io/2020/02/06/hello-world/</a>
+                    <a href="https://epc.ink/2020/02/06/hello-world/">https://epc.ink/2020/02/06/hello-world/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -531,7 +531,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="https://guozhenzuo.github.io" target="_blank">左撇子</a>
+                    <a href="https://epc.ink" target="_blank">左撇子</a>
                     !
                 </span>
             </div>
@@ -953,7 +953,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             <span id="year">2019</span>
-            <a href="https://guozhenzuo.github.io" target="_blank">Godenzo</a>
+            <a href="https://epc.ink" target="_blank">Godenzo</a>
             |&nbsp;Powered by&nbsp;<a href="https://epc.ink/" target="_blank">黑龙江软媒科技有限公司</a>
             |&nbsp;Theme&nbsp;<a href="https://epc.ink" target="_blank">EPC ink</a>
             <br>
@@ -1094,6 +1094,25 @@ $(function () {
     <script src="/libs/instantpage/instantpage.js" type="module"></script>
     
 
-</body>
+
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        $('a').each(function() {
+          const $this = $(this);
+          const href = $this.attr('href');
+          if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
+            const strs = href.split('/');
+            if (strs.length >= 3) {
+                const host = strs[2];
+                if (host !== 'your_domain' || window.location.host) {
+                    $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
+                    if (true) {
+                        $this.attr('target', '_blank');
+                    }
+                }
+            }
+          }
+        });
+        </script></body>
 
 </html>
